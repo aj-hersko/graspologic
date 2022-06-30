@@ -10,8 +10,7 @@ import numpy as np
 import scipy
 from beartype import beartype
 
-from graspologic.types import (AdjacencyMatrix, Dict, GraphRepresentation,
-                               List, Tuple)
+from graspologic.types import AdjacencyMatrix, Dict, GraphRepresentation, List, Tuple
 
 from .. import utils
 from ..preconditions import check_argument

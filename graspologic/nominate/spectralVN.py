@@ -11,8 +11,7 @@ from typing_extensions import Literal
 
 from graspologic.types import Dict, List, Tuple
 
-from ..embed import (AdjacencySpectralEmbed, BaseSpectralEmbed,
-                     LaplacianSpectralEmbed)
+from ..embed import AdjacencySpectralEmbed, BaseSpectralEmbed, LaplacianSpectralEmbed
 
 # Type aliases
 EmbedderType = Union[Literal["ase", "ASE", "lse", "LSE"], BaseSpectralEmbed]

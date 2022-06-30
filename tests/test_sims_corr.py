@@ -5,9 +5,11 @@ import unittest
 
 import numpy as np
 
-from graspologic.simulations.simulations_corr import (er_corr,
-                                                      sample_edges_corr,
-                                                      sbm_corr)
+from graspologic.simulations.simulations_corr import (
+    er_corr,
+    sample_edges_corr,
+    sbm_corr,
+)
 
 
 class TestSampleCorr(unittest.TestCase):

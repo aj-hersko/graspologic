@@ -8,9 +8,7 @@ from sklearn.utils import check_scalar
 
 from graspologic.preconditions import check_argument
 from graspologic.types import AdjacencyMatrix, Tuple
-from graspologic.utils import (import_graph, is_loopless, is_symmetric,
-                               is_unweighted)
-
+from graspologic.utils import import_graph, is_loopless, is_symmetric, is_unweighted
 
 
 # Code based on: https://github.com/joelnish/double-edge-swap-mcmc/blob/master/dbl_edge_mcmc.py
